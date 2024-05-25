@@ -25,17 +25,25 @@ header {
 .row {
     display: flex;
     flex-wrap: wrap;
-    background-color: goldenrod;
 }
 
 .col-20 {
     width: 20%;
     border: 2px dashed black;
+    background-color: goldenrod;
 }
 
 .col-60 {
     width: 60%;
     border: 2px dashed black;
+    background-color: goldenrod;
+}
+
+.col-100 {
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+
 }
 
 #main-menu {
@@ -53,4 +61,18 @@ header {
 
 .login {
     text-align: right;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bb-lb {
+    border-bottom: 3px solid lightblue;
 }
